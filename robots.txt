@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+# Claim links are private to the gift recipient — never index them.
+# (These URLs now redirect to app.hadeya.app, which refuses indexing entirely.)
+Disallow: /claim/
